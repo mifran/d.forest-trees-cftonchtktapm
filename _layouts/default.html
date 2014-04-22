@@ -30,7 +30,7 @@
       <div class="inner">
 
         <header>
-          <h1><img src="/images/pazilla-tortoise.gif" height="70" width="65" /><a href="/">Pazilla</a></h1>
+          <h1><img src="/{{site.repo}}/images/pazilla-tortoise.gif" height="70" width="65" /><a href="/">Pazilla</a></h1>
           <h2>{{ page.title }}</h2>
         </header>
 
@@ -39,13 +39,13 @@
         </section>
 
         <section id="nav" class="clearfix">
-          <a href="/d/donate" id="link-donate" class="button"><span>Donate</span></a>
-          <a href="/d/about.html" id="link-about" class="button"><span>About</span></a>
-          <a href="https://github.com/pazilla/pazilla.github.io" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="http://www.pazilla.com/d/donate" id="link-donate" class="button"><span>Donate</span></a>
+          <a href="http://www.pazilla.com/d/about.html" id="link-about" class="button"><span>About</span></a>
+          <a href="https://github.com/pazilla/{{site.repo}}" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 <section id="edit" class="edit">
 <p>
-<a href="https://github.com/pazilla/d.pazilla.github.io/blob/master/{{page.path | replace_first:'d/',''}}">Edit this page</a> (register/sign in))
+<a href="https://github.com/pazilla/{{site.subrepo}}/blob/master/{{page.path | replace_first:'d/',''}}">Edit this page</a> (register/sign in))
 </p>
 </section>
         <footer>
